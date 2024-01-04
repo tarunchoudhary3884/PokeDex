@@ -1,7 +1,7 @@
 function PokemonListLoader() {
   return (
     <>
-      <div className=" bg-zinc-800 shadow h-52 w-60 mx-auto m-2">
+      <div className=" bg-zinc-800 shadow h-52 w-60 mx-auto m-2 mr-3">
         <div className="animate-pulse">
           <div className="flex">
             <div className="flex flex-col">
