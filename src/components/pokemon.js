@@ -54,7 +54,7 @@ export function getEvolution(evolutionChain) {
     });
 
     return {
-      levelUp: levelUp.length > 0 ? levelUp : [{ key: "min_level", value: 1 }],
+      levelUp: levelUp.length > 0 ? levelUp : [],
       pokemonId: evolutionChain.species.url.split("/")[6],
       pokemonName: evolutionChain.species.name,
     };

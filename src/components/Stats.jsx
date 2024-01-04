@@ -5,8 +5,8 @@ function Stats({ selectedPokemon, setError }) {
 
   useEffect(() => {
     const pokemon = {
-      height: selectedPokemon.height,
-      weight: selectedPokemon.weight,
+      height: selectedPokemon.height / 10,
+      weight: selectedPokemon.weight / 10,
       stats: getStats(selectedPokemon),
     };
     setData(pokemon);
