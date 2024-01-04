@@ -120,7 +120,7 @@ const PokemonList = ({ searchValue, setSelectedPokemon, setError }) => {
           ))
         )}
         {loading && (
-          <div>
+          <div className="m-2">
             <PokemonListLoader />
             <PokemonListLoader />
             <PokemonListLoader />
