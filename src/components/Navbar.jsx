@@ -62,7 +62,7 @@ function Navbar() {
           className="p-2"
           onClick={() =>
             handleClick(
-              "LinkedIn: https://www.linkedin.com/in/tarunchoudhary3884/"
+              "LinkedIn: https://www.linkedin.com/in/tarunchoudhary3884/pokedex"
             )
           }
         >
@@ -97,7 +97,7 @@ function Navbar() {
         <li
           className="p-2"
           onClick={() =>
-            handleClick("Github: https://github.com/tarunchoudhary3884/")
+            handleClick("Github: https://github.com/tarunchoudhary3884/pokedex")
           }
         >
           <a
