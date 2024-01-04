@@ -90,7 +90,7 @@ function Navbar() {
       </ul>
       {/* Mobile Navigation */}
       <ul
-        className={`w-full h-[calc(100%-56px)] absolute left-0 ease-in-out duration-700 flex flex-col justify-start items-start bg-primaryColor sm:hidden px-2 z-10 ${
+        className={`w-full h-full absolute left-0 ease-in-out duration-700 flex flex-col justify-start items-start bg-primaryColor sm:hidden px-2 z-50 ${
           open ? "top-14 " : "top-[-100%]"
         }`}
       >
