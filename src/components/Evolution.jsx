@@ -33,7 +33,7 @@ function Evolution({ selectedPokemon, setError }) {
   }, [selectedPokemon]);
 
   return (
-    <div>
+    <div className="h-full">
       {isLoading && (
         <div className="flex flex-col justify-center items-center mt-4 gap-2">
           <div className="flex justify-center items-center border-2 p-2 border-black h-20">
