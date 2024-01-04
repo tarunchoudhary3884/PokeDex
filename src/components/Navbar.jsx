@@ -47,11 +47,11 @@ function Navbar() {
         <li
           className="p-2"
           onClick={() =>
-            handleClick("Github: https://github.com/tarunchoudhary3884/")
+            handleClick("Github: https://github.com/tarunchoudhary3884/pokedex")
           }
         >
           <a
-            href="https://github.com/tarunchoudhary3884/"
+            href="https://github.com/tarunchoudhary3884/pokedex"
             target="_blank"
             className="flex items-center justify-center gap-2"
           >
@@ -62,7 +62,7 @@ function Navbar() {
           className="p-2"
           onClick={() =>
             handleClick(
-              "LinkedIn: https://www.linkedin.com/in/tarunchoudhary3884/pokedex"
+              "LinkedIn: https://www.linkedin.com/in/tarunchoudhary3884/"
             )
           }
         >
@@ -101,7 +101,7 @@ function Navbar() {
           }
         >
           <a
-            href="https://github.com/tarunchoudhary3884/"
+            href="https://github.com/tarunchoudhary3884/pokedex"
             className="flex items-center justify-center gap-2"
             target="_blank"
           >
