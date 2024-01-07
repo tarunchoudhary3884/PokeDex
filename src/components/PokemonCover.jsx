@@ -16,7 +16,7 @@ function PokemonCover({ selectedPokemon, setSelectedPokemon, setError }) {
 
       <div className="h-full">
         <div
-          className={`h-full capitalize flex flex-col justify-center items-center ${
+          className={`capitalize flex flex-col justify-center items-center ${
             activeIndex === 2 ? "hidden" : ""
           }`}
         >
